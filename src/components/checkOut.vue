@@ -16,7 +16,7 @@
                   v-model="user.name"
                   class="form-control"
                   id="firstName"
-                  placeholder="Name on ID"
+                  placeholder="Your Name"
                   required
                 />
               </div>
