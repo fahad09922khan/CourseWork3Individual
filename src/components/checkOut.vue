@@ -99,9 +99,17 @@ export default {
     },
   },
   methods: {
-    navigateTo(page) {
-      this.page = page;
-    },
+
+    addToCart(lesson) {
+                        const lessonIndex = this.lessons.findIndex(item => item.id === lesson.id);
+                        if (lessonIndex !== -1 && this.lessons[lessonIndex].space > 0) {
+                            this.lessons[lessonIndex].space -= 1;
+                            this.cart.push({
+                                cartId: this.cart.length + 1,
+                                ...lesson
+                            });
+                        }
+                    },
     submitCheckout() {
       // Update the space property of lessons in the cart
       this.cart.forEach((item) => {
@@ -160,6 +168,7 @@ export default {
       };
     },
   },
+
 };
 </script>
 
