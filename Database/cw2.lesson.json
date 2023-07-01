@@ -1,0 +1,111 @@
+[{
+        "_id": {
+            "$oid": "63cf6d91525e307676897742"
+        },
+        "id": 2,
+        "subject": "English",
+        "location": "Block 5, Class 802",
+        "price": 350,
+        "space": 4,
+        "image": "static/english.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897744"
+        },
+        "id": 4,
+        "subject": "History",
+        "location": "Block 3, Class 605",
+        "price": 250,
+        "space": 6,
+        "image": "static/history.webp"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897746"
+        },
+        "id": 6,
+        "subject": "art",
+        "location": "Block 9, Physics lab",
+        "price": 300,
+        "space": 8,
+        "image": "static/art.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897748"
+        },
+        "id": 8,
+        "subject": "Biology",
+        "location": "Block 10, Biology Lab",
+        "price": 300,
+        "space": 6,
+        "image": "static/history.webp"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897749"
+        },
+        "id": 9,
+        "subject": "Swimming",
+        "location": "Block 7, Swimming Pool",
+        "price": 500,
+        "space": 9,
+        "image": "static/Swimming.png"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897743"
+        },
+        "id": 3,
+        "subject": "Football",
+        "location": "Block 6, Field 1",
+        "price": 425,
+        "space": 8,
+        "image": "static/Football.webp"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897741"
+        },
+        "id": 1,
+        "subject": "Mathmateics",
+        "location": "Block 1, Class 108",
+        "price": 425,
+        "space": 6,
+        "image": "static/math.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e307676897745"
+        },
+        "id": 5,
+        "subject": "Geography",
+        "location": "Block 1, Geography Lab",
+        "price": 375,
+        "space": 5,
+        "image": "static/geography.webp"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e30767689774a"
+        },
+        "id": 10,
+        "subject": "science",
+        "location": "Block 2, Robotics Lab",
+        "price": 175,
+        "space": 6,
+        "image": "static/science.avif"
+    },
+    {
+        "_id": {
+            "$oid": "63cf6d91525e30767689774e"
+        },
+        "id": 14,
+        "subject": "spanish",
+        "location": "Block 7, Music Room",
+        "price": 400,
+        "space": 6,
+        "image": "static/spanish.png"
+    }
+]
