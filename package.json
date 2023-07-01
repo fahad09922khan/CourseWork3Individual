@@ -2,13 +2,15 @@
     "name": "DarsgahSchool",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://fahad09922khan.github.io/CourseWork3Individual/",
     "main": "nodemon server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon server.js",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "deploy": "npm run build && gh-pages -d dist"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^6.4.0",
@@ -18,13 +20,13 @@
         "bootstrap": "^5.2.3",
         "bootstrap-vue": "^2.23.1",
         "core-js": "^3.8.3",
-        "express": "^4.18.2",
         "cors": "^2.8.5",
-        "nodemon": "^2.0.22",
-        "sweetalert2": "^11.7.3",
-        "vue": "^2.7.14",
+        "express": "^4.18.2",
         "node": "^17.7.2",
-        "save": "^2.5.0"
+        "nodemon": "^2.0.22",
+        "save": "^2.5.0",
+        "sweetalert2": "^11.7.3",
+        "vue": "^2.7.14"
     },
     "devDependencies": {
         "@babel/core": "^7.12.16",
@@ -34,6 +36,7 @@
         "@vue/cli-service": "~5.0.0",
         "eslint": "^7.32.0",
         "eslint-plugin-vue": "^8.0.3",
+        "gh-pages": "^5.0.0",
         "vue-template-compiler": "^2.6.14"
     },
     "eslintConfig": {
